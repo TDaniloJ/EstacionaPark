@@ -2,8 +2,8 @@
 #include <ESPAsyncWebServer.h>
 #include <AsyncTCP.h>
 
-const char* ssid = "VIVO-4C80";       // Substitua pelo seu SSID
-const char* password = "qAy4kuK9qb";  // Substitua pela sua senha
+const char* ssid = "NOME DA REDE";       // Substitua pelo seu SSID
+const char* password = "SENHA DA REDE";  // Substitua pela sua senha
 
 const int ledPin1 = 13; // Pino do LED da vaga 1
 const int echoPin1 = 14; // Pino do sensor (echo Saída) da vaga 1
